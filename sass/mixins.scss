@@ -17,7 +17,7 @@
 
 @mixin adaptive-video() {
   position: relative;
-  padding-bottom: 56.25%; /* задаёт высоту контейнера для 16:9 (если 4:3 — поставьте 75%) */
+  padding-bottom: 56.25%; /* sets the height of the container for 16: 9 (if 4: 3 - set 75%) */
   padding-top: 30px;
   height: 0;
   overflow: hidden;

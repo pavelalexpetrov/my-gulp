@@ -4,7 +4,7 @@ module.exports = function () {
           server: 'build/'
       });
 
-      $.gulp.watch('sass/**/*.sccs', $.gulp.series('sass'));
+      $.gulp.watch('sass/**/*.scss', $.gulp.series('sass'));
       $.gulp.watch('*.html', $.gulp.series('html'));
       $.gulp.watch('js/**/*.js', $.gulp.series('scripts'));
       $.gulp.watch('img/**/*.{png,jpg,svg}', $.gulp.series('allimg'));
